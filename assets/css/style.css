@@ -1,0 +1,20 @@
+@import url(./font.css);
+@import url(./variaveis.css);
+.navbar{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.224);
+    display: flex;
+
+
+}
+.navbar-brand{
+    text-transform: uppercase;
+    padding: 1.7rem;
+    font-family: var(--font);
+    color: var(--cor-primaria);
+}
+.nav-link {
+    text-transform: uppercase;
+    padding: 1.7rem;
+    font-family: var(--font);
+    color: var(--cor-primaria);
+}
