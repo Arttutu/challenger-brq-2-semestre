@@ -25,7 +25,7 @@
     background-position: right;
     background-size:  800px;
     background-position-y: 0px;
-    height: 85vh;
+    height: 95vh;
     width: 100%;
     @media(max-width: 1024px){
         align-items: top;
@@ -44,6 +44,14 @@
         flex-direction: column;
     }
    
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    margin-bottom: 1.3em;
 }
 .titulo{
     color: var(--cor-primaria);
@@ -70,8 +78,53 @@
         font-size: 1em;
     }
 }
+.containerBotao{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5em;
+ 
+}
+.botao{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font);
+    font-size: 1.2em;
+    @media(max-width: 1024px){
+        background-color: var(--cor-secundaria);
+        color: black;
+        width: 130px;
+        height: 60px;
+        font-size: 1em;
+    }
+}
 .imageBanner{
     @media(max-width: 1024px){
         width: 100%;
     }
+}
+footer{
+    width: 100%;
+    background-color: var(--cor-rodape);
+    margin: 0px;
+    padding: 10px;
+
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0 auto;
+}
+.rodapeMensagem{
+    text-align: center;
+    font-size: 1em;
+    color: var(--cor-secundaria);
 }
