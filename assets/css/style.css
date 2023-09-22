@@ -3,11 +3,9 @@
 .navbar{
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.224);
     display: flex;
-
-
 }
 .navbar-brand{
-  
+    font-weight: bold;
     text-transform: uppercase;
     padding: 1.7rem;
     font-family: var(--font);
@@ -18,4 +16,62 @@
     padding: 1.7rem;
     font-family: var(--font);
     color: var(--cor-primaria);
+}
+.mainSection{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:  800px;
+    background-position-y: 0px;
+    height: 85vh;
+    width: 100%;
+    @media(max-width: 1024px){
+        align-items: top;
+        padding: 120px 10px;
+        height: 100%;
+        background-image:none;
+        background-color:var(--cor-primaria);
+    }
+
+}
+.mainSectionConteudo{
+    display: flex;
+    align-items: center;
+    @media(max-width: 1024px){
+        text-align: center;
+        flex-direction: column;
+    }
+   
+}
+.titulo{
+    color: var(--cor-primaria);
+    font-weight: 400;
+    font-size: 3em;
+    font-family: var(--font); 
+    @media(max-width: 1024px){
+        color: var(--cor-secundaria);
+        font-size: 2.5em;
+    }
+    @media(max-width: 768px){
+        font-size: 2em;
+    }  
+}
+.descricao{
+    font-weight: 600;
+    font-size: 2em;
+    font-family: var(--font); 
+    @media(max-width: 1024px){
+        color: black;
+        font-size: 1.5em;
+    }
+    @media(max-width: 768px){
+        font-size: 1em;
+    }
+}
+.imageBanner{
+    @media(max-width: 1024px){
+        width: 100%;
+    }
 }
