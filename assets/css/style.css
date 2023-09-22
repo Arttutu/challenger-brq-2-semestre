@@ -29,7 +29,7 @@
     width: 100%;
     @media(max-width: 1024px){
         align-items: top;
-        padding: 120px 10px;
+        padding: 100px 10px;
         height: 100%;
         background-image:none;
         background-color:var(--cor-primaria);
@@ -42,11 +42,11 @@
     @media(max-width: 1024px){
         text-align: center;
         flex-direction: column;
-        padding: 15px;
+        
     }
    
 }
-.teste{
+.Conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,8 +82,11 @@
 .containerBotao{
     display: flex;
     align-items: center;
-
     gap: 0.5em;
+    @media(max-width: 1024px){
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
  
 }
 .botao{
@@ -99,8 +102,8 @@
     @media(max-width: 1024px){
         background-color: var(--cor-secundaria);
         color: black;
-        width: 130px;
-        height: 60px;
+        width: 110px;
+        height: 80px;
         font-size: 1em;
     }
 }
