@@ -1,0 +1,67 @@
+@import url(./font.css);
+@import url(./variaveis.css);
+
+.formulario{
+  display:flex;
+  flex-direction: column ;  
+  align-items: left;
+  width: 800px;
+  gap: 1em;
+  @media(max-width: 1024px){
+    width: auto;
+    align-items: center;
+}
+}
+.formulario__caixa--titulo{
+    font-family: var(--font);
+    font-size: 3em;
+    color: var(--cor-primaria);
+    @media(max-width: 1024px){
+        color: var(--cor-secundaria);
+        font-size: 2.5em;
+    }
+    @media(max-width: 768px){
+        font-size: 2em;
+    }  
+}
+.formulario__caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.5em;
+}
+.formulario__caixa--input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: var(--font2);
+    @media(max-width: 1024px){
+        width: 300px;
+    }
+}
+.formulario__caixa--label{
+    font-family: var(--font2);
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+.formulario__botao{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font2);
+    font-size: 1.2em;
+    @media(max-width: 1024px){
+        background-color: var(--cor-secundaria);
+        color: black;
+        width: 150px;
+        height: 80px;
+    
+    }
+}

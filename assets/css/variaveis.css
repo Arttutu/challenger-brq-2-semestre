@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "Insanibic";
+    src: url(../fonts/Insanibc.ttf);
+  }
+@font-face{
+    font-family: "Louis" ;
+    src: url(../fonts/Louis\ George\ Cafe\ Light.ttf);
+}
+
 :root {
-    --font: "Rowdies";
+    --font: "Insanibic";
+    --font2: "Louis";
     --cor-primaria:  #0f98f8;
     --cor-secundaria: #fff;
     --cor-voltar: rgb(106, 96, 96);
