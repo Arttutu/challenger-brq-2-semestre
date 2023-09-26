@@ -15,12 +15,12 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.js"></script>
+    <link href="assets/css/login.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/reset.css"  rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet" />
     <title>AnyWhere Car</title>
   </head>
   <body>
-
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -54,46 +54,50 @@
         </div>
       </nav>
     </header>
-
     <main>
-      <section class="mainSection">
-        <div class="container-lg"> 
-            <div class="mainSectionConteudo">          
-                <div class="Conteudo" >
-                    <h1 class="titulo">
-                        Conecte a sua empresa as locadoras de carro de todo Brasil!
-                    </h1>
-                    <p class="descricao">
-                        <strong>“Anywhere Car”</strong> é uma funcionalidade de serviço da Easy Carros, que
-                        propõe ampliação da acessibilidade de locações de carros (regiões
-                        periféricas).
-                    </p>
-                    <div class="containerBotao">
-                        <a href="./Cadastre.html">
-                          <button class="botao">Cadastre</button>
-                        </a>
-                        <a href="./login.html">
-                            <button class="botao">Acesse nosso serviço</button>
-                        </a>
-                        <button class="botao">Fale conosco</button>
-                    </div>
-                </div>
-                <div class="">
-                    <img  class="imageBanner" src="./assets/img/carro.png" alt="imagem de um carro"></img>
-                </div>
-        </div> 
+        <div class="mainSection">
+          <div class="container-lg">
+            <div class="formulario">
+              <h1 class="formulario__titulo fs-2">Cadastre o seu estabelecimetno</h1>
+              <div class="formulario__caixa">
+                <label class="formulario__caixa--label">Nome da Empresa</label>
+                <input type="text" class="formulario__caixa--input">
+              </div>
+              <div class="formulario__caixa">
+                <label class="formulario__caixa--label">Logradouro</label>
+                <input type="text" class="formulario__caixa--input">
+              </div>
+              <div class="formulario__caixa">
+                <label class="formulario__caixa--label">Bairro</label>
+                <input type="text"class="formulario__caixa--input">
+              </div>
+              <div class="formulario__caixa">
+                <label class="formulario__caixa--label">Numero</label>
+                <input type="text"class="formulario__caixa--input">
+              </div>
+               <div class="formulario__caixa">
+                <label class="formulario__caixa--label">CNPJ</label>
+                <input type="text"class="formulario__caixa--input">
+              </div>
+               <div class="formulario__caixa">
+                <label class="formulario__caixa--label">Numero  de Vagas disponiveis</label>
+                <input type="text"class="formulario__caixa--input">
+              </div>
+               <button class="formulario__botao">Cadastrar</button>
+            </div>  
+          <div>
         </div>
-      </section>
     </main>
     <footer>
-        <div class="footerContainer">
-            <span class="rodapeMensagem">
-                Site e ideia desenvolvidos por Arthur Gomes, Yuri Gomes e Vínicius.
-            </span>
-            <span class="rodapeMensagem">
-                @Todos os direitos Reservados
-            </span>
-        </div>
-    </footer>
+    <div class="footerContainer">
+        <span class="rodapeMensagem">
+            Site e ideia desenvolvidos por Arthur Gomes, Yuri Gomes e Vínicius.
+        </span>
+        <span class="rodapeMensagem">
+            @Todos os direitos Reservados
+        </span>
+    </div>
+</footer>
+</body>
   </body>
 </html>

@@ -12,7 +12,7 @@
     align-items: center;
 }
 }
-.formulario__caixa--titulo{
+.formulario__titulo{
     font-family: var(--font);
     font-size: 3em;
     color: var(--cor-primaria);
