@@ -1,0 +1,42 @@
+@import url(./font.css);
+@import url(./variaveis.css);
+#tabela {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em;
+  margin: 0 auto;
+  height: 82vh;
+}
+.tabelaSection {
+  @media (max-width: 768px) {
+    overflow-x: auto;
+  }
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.titulo__tabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+  font-family: var(--font);
+  color: var(--cor-primaria);
+  @media (max-width: 768px) {
+    font-size: 1.8em;
+  }
+}
+h2 {
+  font-size: 2em;
+  font-family: var(--font);
+  color: var(--cor-primaria);
+  @media (max-width: 768px) {
+    font-size: 1.3em;
+  }
+}
