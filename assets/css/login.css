@@ -15,6 +15,7 @@
 .formulario__titulo {
   font-family: var(--font);
   font-size: 3em;
+  text-align: center;
   color: var(--cor-primaria);
   @media (max-width: 1024px) {
     color: var(--cor-secundaria);

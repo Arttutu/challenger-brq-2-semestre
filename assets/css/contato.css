@@ -1,0 +1,66 @@
+@import url(./font.css);
+@import url(./variaveis.css);
+
+.contato {
+  display: flex;
+  gap: 3em;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  margin: o auto;
+  text-align: left;
+  padding: 20px;
+}
+.contato__titulo {
+  font-family: var(--font);
+  color: var(--cor-primaria);
+  font-size: 3em;
+  @media (max-width: 1024px) {
+    font-size: 2em;
+    color: var(--cor-secundaria);
+  }
+}
+.contato__titulo__dois {
+  font-family: var(--font2);
+  color: var(--cor-primaria);
+  font-size: 2em;
+  @media (max-width: 1024px) {
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+  }
+}
+.contato__cards {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.contato__card {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  gap: 1em;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid var(--cor-primaria);
+  background-color: var(--cor-secundaria);
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.contato__card-titulo {
+  font-family: var(--font);
+  color: var(--cor-primaria);
+  font-size: 2em;
+}
+.contato__card-desc {
+  font-family: var(--font2);
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}

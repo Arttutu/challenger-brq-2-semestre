@@ -70,3 +70,7 @@
   font-family: var(--font);
   font-size: 1.2em;
 }
+.card__descricao {
+  font-family: var(--font2);
+  font-size: 1.1em;
+}

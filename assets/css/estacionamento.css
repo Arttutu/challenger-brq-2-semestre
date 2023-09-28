@@ -20,7 +20,8 @@ th,
 td {
   border: 1px solid black;
   text-align: center;
-  font-family: var(--font);
+  font-weight: bolder;
+  font-family: var(--font2);
   font-size: 1.3em;
 }
 .titulo__tabela {
@@ -39,7 +40,7 @@ h1 {
 }
 h2 {
   font-size: 2em;
-  font-family: var(--font);
+  font-family: var(--font2);
   color: var(--cor-primaria);
   @media (max-width: 768px) {
     font-size: 1.3em;
