@@ -97,7 +97,8 @@
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
   font-family: var(--font2);
-  font-size: 1.2em;
+  font-weight: bold;
+  font-size: 1.3em;
   @media (max-width: 1024px) {
     background-color: var(--cor-secundaria);
     color: black;

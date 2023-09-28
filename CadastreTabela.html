@@ -17,9 +17,8 @@
     <script src="js/bootstrap.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/reset.css" rel="stylesheet" />
-    <link href="assets/css/login.css" rel="stylesheet" />
-    <link href="assets/css/servicos.css" rel="stylesheet" />
-    <title>AnyWhere Car</title>
+    <link href="assets/css/estacionamento.css" rel="stylesheet" />
+    <title>AnyWhereCar</title>
   </head>
   <body>
     <header>
@@ -42,13 +41,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav fs-5 ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="./login.html">Faça seu Login</a>
+                <a class="nav-link" href="">Faça seu Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Cadastre.html">Cadastre</a>
+                <a class="nav-link" href="">Cadastre</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="./Contato.html">Contato</a>
+                <a class="nav-link" href="">Contato</a>
               </li>
             </ul>
           </div>
@@ -56,42 +55,59 @@
       </nav>
     </header>
     <main>
-      <section class="cardSection">
-        <div class="container-lg">
-          <div class="container__cards">
-            <a class="link" href="./estacionamento.html">
-              <div class="card">
-                <h2 class="card__titulo">Estacionamento Conveniados</h2>
-                <p>descricao</p>
-              </div>
-            </a>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Financiamento</h2>
-              <p>Em Desenvolvimento</p>
+      <section>
+        <div class="container">
+          <div id="tabela">
+            <div class="titulo__tabela">
+              <h1>Verifique a situação do seu estacionamento</h1>
             </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Compra de veículo</h2>
-              <p>Em Desenvolvimento</p>
-            </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Documentos e Multa</h2>
-              <p>Em Desenvolvimento</p>
-            </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Sistema de Gestão</h2>
-              <p>Em Desenvolvimento</p>
-            </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Vendas e Seminovos</h2>
-              <p>Em Desenvolvimento</p>
-            </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Em desenvolvimento</h2>
-              <p></p>
-            </div>
-            <div class="card__desenvolvimento">
-              <h2 class="card__titulo">Em desenvolvimento</h2>
-              <p></p>
+            <div class="tabelaSection">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="row">Número do carro</th>
+                    <td>Modelo</td>
+                    <td>Vaga Ocupada</td>
+                    <td>Data da retirada</td>
+                    <td>Hora da retirada</td>
+                    <td>Data da devolução</td>
+                    <td>Hora da devolução</td>
+                    <td>Número de vagas totais</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>xy</td>
+                    <td>Vaga 1</td>
+                    <td>10/11/2024</td>
+                    <td>10:00</td>
+                    <td>11/11/2024</td>
+                    <td>11:00</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>xz</td>
+                    <td>Vaga 2</td>
+                    <td>10/11/2024</td>
+                    <td>10:00</td>
+                    <td>11/11/2024</td>
+                    <td>11:00</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>yy</td>
+                    <td>Vaga 3</td>
+                    <td>10/11/2024</td>
+                    <td>10:00</td>
+                    <td>11/11/2024</td>
+                    <td>11:00</td>
+                    <td>100</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
